@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/meanu"
+        android:title="Menu"/>
+
+    <item android:id="@+id/MyOrders"
+        android:title="MyOrders" />
+
+    <item android:id="@+id/profile"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/Payments"
+        android:title="Payments-Refunds"/>
+    <item
+        android:id="@+id/reports"
+        android:title="Reports"/>
+
+    <item
+        android:id="@+id/logoutnav"
+        android:title="Log-out"/>
+
+
+</menu>

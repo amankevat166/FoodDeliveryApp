@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Food_Delivery_App</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="heading1">Fast Delivery_App</string>
+    <string name="heading2">Order Your Favourites</string>
+    <string name="heading3">Easy Payment</string>
+    <string name="desc1">Food is any substance consumed to provide nutritional support for an organism.Food is usually of plant animal</string>
+    <string name="desc2">When you order Eat Street, we will hook you up with exclusive coupons,special sand rewards.</string>
+    <string name="desc3">We make food ordering fast,simple andee - no matter if you order online or cash.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

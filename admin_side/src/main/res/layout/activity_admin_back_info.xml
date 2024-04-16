@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Back_Info">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/alatsi"
+            android:gravity="center"
+            android:text="Bank-Information"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="830dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/Branchname"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Account branch Name"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/orange"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/alatsi"
+            android:text="Account Details :-"
+            android:textColor="@color/orange"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/Accnum"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Account Number"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/orange"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Branchname" />
+
+        <EditText
+            android:id="@+id/Acctype"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Account Type"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/orange"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Accnum" />
+
+        <EditText
+            android:id="@+id/Accname"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Accont Holder Name"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/orange"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Acctype" />
+
+        <EditText
+            android:id="@+id/ifsc"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="IFSC Code"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/orange"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Accname" />
+
+        <EditText
+            android:id="@+id/aadhar"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Aadhar Card Number"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/orange"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ifsc" />
+
+
+        <Button
+            android:id="@+id/save_data"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/alatsi"
+            android:text="Save Data"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aadhar"
+            app:layout_constraintVertical_bias="0.214" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

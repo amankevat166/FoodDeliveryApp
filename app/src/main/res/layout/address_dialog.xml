@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_370sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@drawable/white_box"
+        android:elevation="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:text="Your Delivery Address"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:text="lasan bhai"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/user_add"
+            android:layout_width="@dimen/_235sdp"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:text="agiyari street vakhar faliya"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/comma3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=","
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_1sdp">
+        <TextView
+            android:id="@+id/user_landmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:text="near bandar road"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/comma4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ,"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/user_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:text="bilimora"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/comma1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=","
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/user_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:text="Gujarat"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/comma2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=","
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/user_pincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:text="396321"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textSize="@dimen/_22ssp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/user_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:text="Bharat"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phone_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:text="Phone Number:"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/phone_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:text="9898989898"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/address_btn"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+           android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:background="@drawable/ripple_effect"
+            android:text="Deliver To this Address"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp" />
+
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Edit Address"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

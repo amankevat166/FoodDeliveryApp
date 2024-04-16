@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ord"
+        android:icon="@drawable/icon_menu_24"
+        android:title="New-Order"/>
+
+    <item
+        android:id="@+id/pre"
+        android:icon="@drawable/noun_add_receipt_783557"
+        android:title="Order-Preparing"/>
+
+    <item android:id="@+id/rev"
+        android:icon="@drawable/ic_revenue"
+        android:title="Revenue" />
+
+    <item android:id="@+id/setting"
+        android:icon="@drawable/icon_setting"
+        android:title="Setting"/>
+</menu>
